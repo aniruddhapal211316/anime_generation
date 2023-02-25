@@ -1,0 +1,9 @@
+imageio==2.22.0
+matplotlib==3.5.3
+numpy==1.23.3
+opencv_python==4.6.0.66
+Pillow==9.4.0
+PyYAML==6.0
+torch==1.12.1
+torchvision==0.13.1
+tqdm==4.64.0

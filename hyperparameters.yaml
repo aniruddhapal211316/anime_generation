@@ -1,0 +1,27 @@
+generator : 
+
+  loss : 'r1'
+  learning_rate : 0.0001
+  alpha : 0.99
+  optim : 'RMSprop'
+  resolution : 64
+  latent_size : 256
+  deep_mapping : 4
+
+discriminator : 
+
+  loss : 'r1'
+  learning_rate : 0.0001
+  alpha : 0.99
+  lambda_gp : 10
+  optim : 'RMSprop'
+  resolution : 64
+
+image_size : 64
+batch_size : 32
+epochs : 10000
+dataset_dir : 'dataset'
+weight_dir : 'saved_model'
+save_frequency : 1
+generate_no_image : 6
+images_dir : 'images'
